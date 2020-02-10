@@ -1,270 +1,46 @@
 <link rel="stylesheet" href="/css/home.css">
-<header class="overflow-container">
-    <div class="page-horizontal-container h-100">
-        <div class="container h-100 d-flex align-items-center">
-            <a href="" class="no-decoration mr-3 font-20">VP</a>
-            <a href="" class="no-decoration">Home</a>
-        </div>
-    </div>
-</header>
-<div class="overflow-container page-vertical-container">
-    <main class="page-horizontal-container">
-        <div class="container">
-            <!-- CARDS START -->
-            <div class="row mx-n4 py-5">
 
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
+<main class="page-horizontal-container">
+    <div class="container py-5">
+        <h3><b>Videos</b></h3>
+        <!-- THUMBNAILS START -->
+        <div class="row mx-n4" id="thumbnailContainer">
+
+            <!-- THUMBNAIL -->
+            {{!-- <div class="col-12 col-md-6 px-4 py-5">
+                <div class="card thumbnail">
+                    <div class="row m-0 flex-nowrap">
+                        <div class="col-8 p-2">
+                            <div class="position-relative w-100 h-100 overflow-hidden thumbnail-img-new" style="--background-thumbnail: url(/uploadsmanager/thumbnails/video1.png);">
+                                <div class="w-100" style="padding-top:50%;"></div>
+                                <img src="/uploadsmanager/thumbnails/video1.png" alt="video 1 thumbnail" height="100%" width="auto" class="position-absolute thumbnail-img">
                             </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
+                        </div>
+                        <div class="col-4 p-2 d-flex flex-column">
+                            <div class="thumbnail-title-container">
+                                <p class="m-0 thumbnail-title"><b>TITLE Lorem ipsum</b></p>
+                                <p class="m-0 text-muted font-12">2 Jan 2020</p>
+                            </div>
+                            <div class="thumbnail-description-container mb-auto">
+                                <p class="thumbnail-description m-0">Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Ad,
                                     magnam. Eius
                                     tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
                                     odit, provident
                                     nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
                             </div>
+                            <p class="m-0 text-right">
+                                <a href="/video">See more</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD -->
-                <div class="col-12 col-md-6 col-lg-4 px-4 py-5">
-                    <div class="card border-0">
-                        <div class="row m-0">
-                            <div class="col-7 p-2">
-                                <div class="position-relative h-100">
-                                    <div class="bg-secondary h-100 w-100">image</div>
-                                    <!-- <div class="bg-secondary" style="width: 100%; padding-top: 50%"></div> -->
-                                </div>
-                            </div>
-                            <div class="col-5 p-2 d-flex flex-column">
-                                <p class="m-0"><b>TOPIC 1</b></p>
-                                <p class="m-0 text-muted small">Posted: 2 Jan 2020</p>
-                                <!-- <p class="max-lines">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, magnam. Eius tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur odit, provident nam ad illum ratione maxime porro.</p> -->
-                                <p class="block-with-text m-0 mb-auto">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Ad,
-                                    magnam. Eius
-                                    tempora sint tempore voluptatem, ipsa corporis harum architecto fugiat ut. Tenetur
-                                    odit, provident
-                                    nam ad illum ratione maxime porro.</p>
-                                <p class="m-0 text-right">
-                                    <a href="">See more</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- CARDS END -->
+            </div> --}}
+
         </div>
-    </main>
-    <footer class="page-horizontal-container py-5">
-        <div class="container">
-            <p>asdf</p>
-            <p>asdf</p>
-        </div>
-    </footer>
-</div>
+        <!-- THUMBNAILS END -->
+    </div>
+</main>
+
+<script src="/uploadsmanager/thumbnails/thumbnailsmanager.js"></script>
 <script src="/js/home.js"></script>
