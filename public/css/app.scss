@@ -10,9 +10,15 @@ body {
     font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+// 
+// The following two classes are used to control minimum screen size
+//
 .overflow-container { overflow-x: hidden; }
 .page-horizontal-container { min-width: 360px; }
 
+// 
+// Utility classes that may be useful on other pages
+// 
 a.decoration-none {
     transition: 0.2s color;
     &:hover {
@@ -25,6 +31,9 @@ a.decoration-none {
 .font-24 { font-size: 24px; }
 
 
+// 
+// The following are classes for styling the base layout of the website (header, main, footer)
+// 
 .page-vertical-container { min-height: 100vh; display: flex; flex-direction: column; }
 header {
     position: fixed;
